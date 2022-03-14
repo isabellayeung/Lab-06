@@ -26,7 +26,7 @@ public class CalculatorAddAndSubtract {
         System.out.print("Enter second operand: ");
         valueTwo = scnr.nextDouble();
 
-        // Switch to choose Addition
+        // Switch to choose Addition or Subtraction
         switch (optionChoice) {
             case 1:
                 // Adds first and second value together
