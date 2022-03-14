@@ -14,8 +14,9 @@ public class CalculatorAddAndSubtract {
         System.out.println("Calculator Menu");
         System.out.println("");
         System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
 
-        // Prompts user to choose Addition
+        // Prompts user to choose Addition or Subtraction
         System.out.println("Which operation do you want to perform?");
         optionChoice = scnr.nextInt();
 
@@ -30,6 +31,11 @@ public class CalculatorAddAndSubtract {
             case 1:
                 // Adds first and second value together
                 calculationResult = valueOne + valueTwo;
+                System.out.println("The result of the operation is " + calculationResult + ".");
+                break;
+            case 2:
+                // Subtracts the second value from the first value
+                calculationResult = valueOne - valueTwo;
                 System.out.println("The result of the operation is " + calculationResult + ".");
                 break;
 
